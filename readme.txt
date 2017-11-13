@@ -32,4 +32,4 @@
 
 查看指定文件内容：cat 含路径的文件名
 
-撤销修改：git checkout -- file
+撤销工作区指定文件的修改：git checkout -- 含路径的文件名
