@@ -41,6 +41,13 @@
 
 把暂存区的内容撤销，退回到工作区：git reset HEAD "含路径的文件名"
 
+远程仓库：
+注册github账号
+Git Bash设置：ssh-keygen -t rsa -C  "youemail@example.com"，把邮箱换成自己的然后一路回车即可，无需设置密码。
+添加远程仓库：git remote add origin git@github.com:lg613/learngit.git //origin可自定义
+将本地仓库的内容推送到github：git push -u origin master // 注：如果是第一次推送，要加“-u”参数，之后无需添加。
+
+
 
 
 
